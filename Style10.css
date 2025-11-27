@@ -1,0 +1,302 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.cv-header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  border-radius: 12px;
+}
+
+.foto-container {
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+
+.foto-container img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%; /* Rende la foto rotonda */
+  border: 3px solid #04AA6D;
+}
+
+.info-personali {
+  flex: 1;
+}
+
+.info-personali h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #333;
+}
+
+.info-personali p {
+  margin: 6px 0;
+  color: #555;
+}
+
+.competenze {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;     /* o space-between/space-around */
+    gap: 20px;                   /* spazio tra i bottoni */
+    margin-bottom: 2rem;
+    flex-wrap: wrap;             /* per responsività su schermi piccoli */
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;          /* spazio interno al bottone */
+    background-color: #6b6967;   /* colore di sfondo per sembrare bottone */
+    transition: background-color 0.2s ease;
+    width: 270px;       /* larghezza */
+    height: auto;       /* altezza automatica in base al contenuto */
+    padding: 20px;
+    text-align: center;
+}
+
+nav a:hover {
+    text-decoration-line: underline;
+}
+
+.progetti {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;  
+}
+
+table {
+  margin: 0 auto;       /* centra la tabella orizzontalmente */
+  text-align: center;   /* centra il contenuto delle celle */
+  border-collapse: collapse;
+}
+
+table img {
+  width: 360px;
+  height: auto;
+  padding: 10px;        /* spazio intorno alle immagini */
+}
+
+.esperienze {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;  
+}
+
+.esperienze1 {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;
+  color: #084cb6;
+}
+
+
+.esperienze2 {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;
+  color: #084cb6; 
+}
+
+.esperienze3 {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;
+  color: #084cb6; 
+}
+
+.esperienze4 {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;
+  color: #084cb6; 
+}
+
+.formazione {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;  
+}
+
+.formazione1 {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;
+  color: #084cb6; 
+}
+
+.formazione2 {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;
+  color: #084cb6; 
+}
+
+.formazione3 {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;
+  color: #084cb6; 
+}
+
+.formazione4 {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;
+  color: #084cb6; 
+}
+
+.competenzepersonali {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;  
+}
+
+.competenzepersonali1 {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;
+  color: #084cb6 !important; 
+}
+
+.competenzepersonali2 {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;
+  color: #084cb6 !important;  
+}
+
+.competenzepersonali3 {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;
+  color: #084cb6 !important; 
+}
+
+.competenzepersonali4 {
+ border: 1px solid #ccc;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 30px auto;
+  align-items: center;
+  color: #084cb6 !important; 
+}
